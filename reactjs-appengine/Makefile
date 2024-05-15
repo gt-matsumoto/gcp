@@ -13,3 +13,6 @@ build: install
 
 deploy: build
 	gcloud -q app deploy --project $(prj) --version $(version) app.yaml
+
+local: build
+	yarn start

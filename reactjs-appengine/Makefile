@@ -16,3 +16,6 @@ deploy: build
 
 local: build
 	yarn start
+
+show:
+	open https://devm.cocodayo.jp/view/v2/gv/
